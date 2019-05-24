@@ -1,0 +1,17 @@
+{
+  "name": "appleple.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gitfolio": "^0.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "gitfolio build appleple --sort star --order desc --theme dark",
+    "update": "gitfolio update",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "steelydylan",
+  "license": "ISC"
+}
