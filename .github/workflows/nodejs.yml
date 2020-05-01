@@ -25,8 +25,8 @@ jobs:
         npm run build --if-present
         cp ./dist/index.css ./index.css
         cp ./dist/index.html ./index.html
-        git config --local user.email "ess_president@me.com"
-        git config --local user.name "steelydylan"
+        git config --local user.email "info@appleple.com"
+        git config --local user.name "atsu666"
         git commit -m "chore(update) periodical update" -a
       env:
         CI: true
